@@ -10,7 +10,7 @@ $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 // echo "Current path: " . $path;
 
 // Remove the project folder if necessary
-$path = str_replace('https://vansham-kamboj.github.io/WowPHP/', '', $path);
+$path = str_replace('https://vansham-kamboj.github.io', '', $path);
 
 // Simple routing logic based on URL path
 switch ($path) {
