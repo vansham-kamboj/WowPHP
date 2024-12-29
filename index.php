@@ -10,7 +10,7 @@ $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 // echo "Current path: " . $path;
 
 // Remove the project folder if necessary
-$path = str_replace('https://vercel.com/vansham-kambojs-projects/wow-php', '', $path);
+$path = str_replace('https://vercel.com/vansham-kambojs-projects/wow-php/WowGlobal', '', $path);
 
 // Simple routing logic based on URL path
 switch ($path) {
